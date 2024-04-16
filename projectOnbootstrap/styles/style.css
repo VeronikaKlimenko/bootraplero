@@ -1,0 +1,63 @@
+:root {
+  --color-light-white: #f3fbfb;
+  --color-light-blue: #bae8e8;
+  --color-yellow: #ffd803;
+  --color-dark-blue: #272343;
+}
+body {
+  background-color: var(--color-light-white);
+  font-size: 20px;
+}
+.wrapper {
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 100px 50px 50px 50px;
+}
+nav {
+  background-color: var(--color-light-blue);
+  border-bottom: black 2px solid;
+}
+.header-container {
+  max-width: 1200px;
+}
+.header-container a {
+  font-weight: 600;
+}
+.header-container img {
+  margin-left: 10px;
+}
+.image-section {
+  max-width: 1200px;
+  max-height: 550px;
+  margin: 30px auto 10px auto;
+}
+.image-section img {
+  border-radius: 20px;
+}
+.carousel-1 {
+  border: var(--color-yellow) solid 5px;
+}
+.carousel-2 {
+  border: var(--color-light-blue) solid 5px;
+}
+.carousel-3 {
+  border: var(--color-dark-blue) solid 5px;
+}
+.about-section {
+  margin-top: 50px;
+}
+.one-half-img {
+  background-image: url("../photos/restaurant.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+.logo {
+  color: var(--color-yellow);
+}
+.one-half-text {
+  background-color: var(--color-dark-blue);
+  color: var(--color-light-white);
+  padding: 100px 80px;
+}
