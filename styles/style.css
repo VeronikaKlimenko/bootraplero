@@ -4,6 +4,12 @@
   --color-yellow: #ffd803;
   --color-dark-blue: #272343;
 }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: var(--color-light-white);
   font-size: 20px;
@@ -11,7 +17,7 @@ body {
 .wrapper {
   max-width: 1700px;
   margin: 0 auto;
-  padding: 100px 50px 50px 50px;
+  padding: 100px 50px 0px 50px;
 }
 nav {
   background-color: var(--color-light-blue);
@@ -60,4 +66,39 @@ nav {
   background-color: var(--color-dark-blue);
   color: var(--color-light-white);
   padding: 100px 80px;
+}
+
+.btn {
+  background-color: var(--color-dark-blue);
+  color: var(--color-light-blue);
+}
+.btn:hover {
+  background-color: var(--color-yellow);
+  color: var(--color-dark-blue);
+}
+.one-half-img {
+  background-image: url("../photos/restaurant.jpeg");
+}
+.menu-item img {
+  width: 600px;
+  height: 600px;
+}
+.one-half-img-2 {
+  background-image: url("../photos/cutlery.png");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.one-half-text-2 {
+  background-color: var(--color-yellow);
+  color: var(--color-dark-blue);
+  padding: 100px 80px;
+}
+.one-half-text-2 .logo {
+  color: var(--color-light-white);
+}
+.footer {
+  padding: 50px 0;
+  background-color: var(--color-light-blue);
+  border-top: black 2px solid;
 }
